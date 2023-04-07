@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@semantic-release-test/lib1": ["libs/lib1/src/index.ts"],
+      "@semantic-release-test/lib2": ["libs/lib2/src/index.ts"],
+      "@semantic-release-test/shared": ["libs/shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
