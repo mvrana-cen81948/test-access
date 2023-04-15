@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/mvrana-cen81948/nx-release-please/compare/app2-v1.0.0...app2-v1.0.1) (2023-04-15)
+
+
+### Bug Fixes
+
+* **shared:** fix 1 ([cc49925](https://github.com/mvrana-cen81948/nx-release-please/commit/cc49925f76c0edb3fb8fbdfb70219a4cf0eab25f))
+
 # 1.0.0 (2023-04-15)
 
 
