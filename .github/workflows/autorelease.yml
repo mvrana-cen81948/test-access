@@ -6,10 +6,10 @@ permissions:
   contents: write
   pull-requests: write
 
-name: release app1
+name: autorelease
 
 jobs:
-  release-please:
+  release-apps:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
