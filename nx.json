@@ -38,7 +38,6 @@
         "github": true,
         "commitMessage": "chore(release): {projectName}@${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
         "tagFormat": "${PROJECT_NAME}@${version}",
-        "branches": ["master", {"name": "prod", "prerelease": true}],
         "gitAssets": ["apps/{projectName}/src/version.json"],
         "plugins": [
           [
