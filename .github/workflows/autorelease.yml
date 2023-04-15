@@ -23,6 +23,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           token: ${{secrets.GITHUB_TOKEN}}
+          changelog-path: apps/app1/CHANGELOG.md
           default-branch: master
           package-name: app1
           component: app1
