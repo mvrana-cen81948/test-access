@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app2@1.0.0...app2@1.1.0) (2023-04-15)
+
+
+### Features
+
+* **lib2:** feat 2 ([ffa3d80](https://github.com/mvrana-cen81948/nx-release-please/commit/ffa3d8092f0a80fc5216848f11edf3190c659887))
+
 # 1.0.0 (2023-04-15)
 
 
