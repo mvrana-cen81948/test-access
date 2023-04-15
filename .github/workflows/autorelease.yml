@@ -13,20 +13,8 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      # Checkout
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # Whole history is needed for Sonar scan
-
       # release-please
       - uses: google-github-actions/release-please-action@v3
         with:
-          token: ${{secrets.GITHUB_TOKEN}}
-          changelog-path: apps/app1/CHANGELOG.md
-          default-branch: master
-          package-name: app1x
-          component: app1x
-          release-type: simple
-          config-file: rp-config.json
+          command: manifest
 
