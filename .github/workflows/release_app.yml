@@ -1,0 +1,30 @@
+on:
+  workflow_dispatch:
+    inputs:
+      app:
+        description: 'select app'
+        required: true
+        type: choice
+        options:
+          - 'app1'
+          - 'app2'
+
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release app
+
+jobs:
+  release-app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with: {fetch-depth: 0}
+      - uses: actions/setup-node@v3
+        with: {node-version: 18, cache: npm}
+      - run: npm ci
+      - run: npx nx run ${{ github.event.inputs.app }}:release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
