@@ -37,7 +37,21 @@
         "npm": false,
         "github": true,
         "commitMessage": "chore(release): {projectName}@${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
-        "tagFormat": "${PROJECT_NAME}@${version}"
+        "tagFormat": "${PROJECT_NAME}@${version}",
+        "plugins": [
+          [
+            "@google/semantic-release-replace-plugin",
+            {
+              "replacements": [
+                {
+                  "files": ["apps/{projectName}/src/version.json"],
+                  "from": "\"version\":\".*\"",
+                  "to": "\"version\":\"${nextRelease.version}\""
+                }
+              ]
+            }
+          ]
+        ]
       }
     }
   },

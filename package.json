@@ -15,6 +15,7 @@
     "@angular/cli": "~15.2.0",
     "@angular/compiler-cli": "~15.2.0",
     "@angular/language-service": "~15.2.0",
+    "@google/semantic-release-replace-plugin": "^1.2.0",
     "@nrwl/angular": "^15.9.2",
     "@nrwl/cypress": "15.9.2",
     "@nrwl/eslint-plugin-nx": "15.9.2",
