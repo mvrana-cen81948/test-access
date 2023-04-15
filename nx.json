@@ -38,6 +38,7 @@
         "github": true,
         "commitMessage": "chore(release): {projectName}@${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
         "tagFormat": "${PROJECT_NAME}@${version}",
+        "gitAssets": ["apps/{projectName}/src/version.json"],
         "plugins": [
           [
             "@google/semantic-release-replace-plugin",
