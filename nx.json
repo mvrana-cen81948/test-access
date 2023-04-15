@@ -29,6 +29,14 @@
         "{workspaceRoot}/.eslintrc.json",
         "{workspaceRoot}/.eslintignore"
       ]
+    },
+    "release": {
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release",
+      "options": {
+        "repositoryUrl": "https://github.com/mvrana-cen81948/nx-release-please",
+        "npm": false,
+        "github": true
+      }
     }
   },
   "namedInputs": {

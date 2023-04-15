@@ -90,6 +90,7 @@
       "options": {
         "buildTarget": "app2:build"
       }
-    }
+    },
+    "release": {}
   }
 }

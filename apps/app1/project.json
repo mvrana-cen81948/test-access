@@ -91,13 +91,6 @@
         "buildTarget": "app1:build"
       }
     },
-    "release": {
-      "executor": "@theunderscorer/nx-semantic-release:semantic-release",
-      "options": {
-        "repositoryUrl": "https://github.com/mvrana-cen81948/nx-release-please",
-        "npm": false,
-        "github": false
-      }
-    }
+    "release": {}
   }
 }
