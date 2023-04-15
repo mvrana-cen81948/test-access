@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/mvrana-cen81948/nx-release-please/compare/app2@1.1.0...app2@1.1.1) (2023-04-15)
+
+
+### Bug Fixes
+
+* **shared:** fixed shared lib ([db6d409](https://github.com/mvrana-cen81948/nx-release-please/commit/db6d40937882827ead2606bc7977b1f8df7b9f77))
+
 # [1.1.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app2@1.0.0...app2@1.1.0) (2023-04-15)
 
 
