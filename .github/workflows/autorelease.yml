@@ -28,4 +28,5 @@ jobs:
           package-name: app1
           component: app1
           release-type: simple
+          config-file: rp-config.json
 
