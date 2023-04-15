@@ -16,3 +16,5 @@ jobs:
         with: {node-version: 18, cache: npm}
       - run: npm ci
       - run: npx nx run app1:release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
