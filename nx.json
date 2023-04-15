@@ -35,7 +35,8 @@
       "options": {
         "repositoryUrl": "https://github.com/mvrana-cen81948/nx-release-please",
         "npm": false,
-        "github": true
+        "github": true,
+        "commitMessage": "chore(release): {projectName} ${nextRelease.version} [skip ci]\\n\\n${nextRelease.notes}"
       }
     }
   },
