@@ -1,11 +1,7 @@
 {
   "release-type": "simple",
   "include-component-in-tag": true,
-  "packages": {
-    ".": {
-      "package-name": "app1"
-    }
-  },
+  "packages": {},
   "exclude-paths": [
     "apps/app2",
     "libs/lib2"
