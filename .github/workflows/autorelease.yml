@@ -17,4 +17,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: simple
-          package-name: release-please-action
+          package-name: app1
+          component: app1
+          monorepo-tags: app1
+          config-file: release-please-config.json
