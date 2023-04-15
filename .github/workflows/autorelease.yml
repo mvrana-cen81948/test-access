@@ -26,3 +26,6 @@ jobs:
           default-branch: master
           package-name: app1
           component: app1
+          release-type: simple
+          excluded-paths: ['apps/app2', 'libs/lib2']
+
