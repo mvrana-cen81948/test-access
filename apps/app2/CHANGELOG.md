@@ -1,3 +1,19 @@
+# [1.2.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app2@1.1.1...app2@1.2.0) (2023-04-15)
+
+
+### Bug Fixes
+
+* **app2:** fix 1 ([ee8862d](https://github.com/mvrana-cen81948/nx-release-please/commit/ee8862d06928ebba51a1c9fafef21bfee10c8aa9))
+* **lib2:** fix1 ([28d7b66](https://github.com/mvrana-cen81948/nx-release-please/commit/28d7b6672f01448fde3be1f9da6b6037e76401f4))
+* **shared:** fix3 ([2a6792d](https://github.com/mvrana-cen81948/nx-release-please/commit/2a6792dafeeb65daa66c07f5fd85730b6e198242))
+
+
+### Features
+
+* **app2:** feat2 ([2377344](https://github.com/mvrana-cen81948/nx-release-please/commit/237734455ce5ece7ef1401dedca792a9d5d7bcfb))
+* **lib2:** feat3 ([1635809](https://github.com/mvrana-cen81948/nx-release-please/commit/16358097fc9ef8b4680a5ef3534aa745297b8c26))
+* **shared:** feat2 ([8bfa150](https://github.com/mvrana-cen81948/nx-release-please/commit/8bfa150d2326f8c14457cce5725ca08acf71e61a))
+
 ## [1.1.1](https://github.com/mvrana-cen81948/nx-release-please/compare/app2@1.1.0...app2@1.1.1) (2023-04-15)
 
 
