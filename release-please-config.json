@@ -3,11 +3,11 @@
   "include-component-in-tag": true,
   "packages": {
     ".": {
-      "package-name": "app1",
-      "exclude-paths": [
-        "apps/app2",
-        "libs/lib2"
-      ]
+      "package-name": "app1"
     }
-  }
+  },
+  "exclude-paths": [
+    "apps/app2",
+    "libs/lib2"
+  ]
 }
