@@ -19,5 +19,5 @@ jobs:
           release-type: simple
           package-name: app1
           component: app1
-          monorepo-tags: app1
+          monorepo-tags: true
           config-file: release-please-config.json
