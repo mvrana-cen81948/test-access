@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.4.0...app1@1.5.0) (2023-04-16)
+
+
+### Features
+
+* **app1:** feat5 ([c33f8ef](https://github.com/mvrana-cen81948/nx-release-please/commit/c33f8efab6b4525c887c14c10f35d85d5679dcc1))
+
 # [1.4.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.3.1...app1@1.4.0) (2023-04-16)
 
 
