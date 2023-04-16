@@ -43,6 +43,7 @@
           {"name": "[0-9]+.[0-9]+.[x]"}
         ],
         "gitAssets": ["apps/{projectName}/src/version.json"],
+        "preset": "conventionalcommits",
         "presetConfig": {
           "issuePrefixes": ["#"],
           "issueUrlFormat": "https://fujira.csin.cz/browse/{{id}}"
