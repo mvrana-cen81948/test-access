@@ -40,10 +40,20 @@
         "tagFormat": "${PROJECT_NAME}@${version}",
         "branches": [
           "master",
-          {"name": "releases\/{projectName}@[0-9]+.[0-9]+.[x]"}
+          {"name": "[0-9]+.[0-9]+.[x]"}
         ],
         "gitAssets": ["apps/{projectName}/src/version.json"],
         "plugins": [
+          [
+            "@semantic-release/release-notes-generator",
+            {
+              "preset": "conventionalcommits",
+              "presetConfig": {
+                "issuePrefixes": ["#"],
+                "issueUrlFormat": "https://github.com/mvrana-cen81948/nx-release-please/issues/{{id}}"
+              }
+            }
+          ],
           [
             "@google/semantic-release-replace-plugin",
             {
