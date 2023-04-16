@@ -45,15 +45,6 @@
         "gitAssets": ["apps/{projectName}/src/version.json"],
         "plugins": [
           [
-            "@semantic-release/release-notes-generator",
-            {
-              "presetConfig": {
-                "issuePrefixes": ["DF-#"],
-                "issueUrlFormat": "https://fujira.csin.cz/browse/{{id}}"
-              }
-            }
-          ],
-          [
             "@google/semantic-release-replace-plugin",
             {
               "replacements": [
