@@ -1,3 +1,21 @@
+## [1.5.4](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.5.3...app1@1.5.4) (2023-04-16)
+
+
+### Bug Fixes
+
+* **app1:** next bugfix #DF-70491 ([0ede42d](https://github.com/mvrana-cen81948/nx-release-please/commit/0ede42d16fcd29fce8506ec233ab3611d0eda093)), closes [#DF-70491](https://github.com/mvrana-cen81948/nx-release-please/issues/DF-70491)
+
+
+
+
+
+## [1.5.4](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.5.3...app1@1.5.4) (2023-04-16)
+
+
+### Bug Fixes
+
+* **app1:** next bugfix #DF-70491 ([0ede42d](https://github.com/mvrana-cen81948/nx-release-please/commit/0ede42d16fcd29fce8506ec233ab3611d0eda093)), closes [#DF-70491](https://github.com/mvrana-cen81948/nx-release-please/issues/DF-70491)
+
 ## [1.5.3](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.5.2...app1@1.5.3) (2023-04-16)
 
 
