@@ -50,7 +50,7 @@
               "preset": "conventionalcommits",
               "presetConfig": {
                 "issuePrefixes": ["#"],
-                "issueUrlFormat": "https://github.com/mvrana-cen81948/nx-release-please/issues/{{id}}"
+                "issueUrlFormat": "https://fujira.csin.cz/browse/{{id}}"
               }
             }
           ],
