@@ -1,3 +1,10 @@
+## [1.5.6](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.5.5...app1@1.5.6) (2023-04-16)
+
+
+### Bug Fixes
+
+* **app1:** fix9 (#DF-12345) ([883c643](https://github.com/mvrana-cen81948/nx-release-please/commit/883c64308dddcde79605ae262d7caf5a22745c63))
+
 ## [1.5.5](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.5.4...app1@1.5.5) (2023-04-16)
 
 
