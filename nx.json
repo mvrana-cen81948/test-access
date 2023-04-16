@@ -48,7 +48,7 @@
             "@semantic-release/release-notes-generator",
             {
               "presetConfig": {
-                "issuePrefixes": ["#"],
+                "issuePrefixes": ["DF-#"],
                 "issueUrlFormat": "https://fujira.csin.cz/browse/{{id}}"
               }
             }
