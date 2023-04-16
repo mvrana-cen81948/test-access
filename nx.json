@@ -47,7 +47,6 @@
           [
             "@semantic-release/release-notes-generator",
             {
-              "preset": "conventionalcommits",
               "presetConfig": {
                 "issuePrefixes": ["#"],
                 "issueUrlFormat": "https://fujira.csin.cz/browse/{{id}}"
