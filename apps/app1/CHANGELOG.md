@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.5.7...app1@1.6.0) (2023-04-16)
+
+
+### Features
+
+* **shared:** feat4 (#DF-5463) ([dceaf91](https://github.com/mvrana-cen81948/nx-release-please/commit/dceaf9133bc8ce7f39da65a5701b53f54c90cd8e)), closes [#DF-5463](https://fujira.csin.cz/browse/DF-5463)
+
 ## [1.5.7](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.5.6...app1@1.5.7) (2023-04-16)
 
 
