@@ -31,39 +31,7 @@
       ]
     },
     "release": {
-      "executor": "@theunderscorer/nx-semantic-release:semantic-release",
-      "options": {
-        "repositoryUrl": "https://github.com/mvrana-cen81948/nx-release-please",
-        "npm": false,
-        "github": true,
-        "commitMessage": "chore(release): {projectName}@${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
-        "tagFormat": "${PROJECT_NAME}@${version}",
-        "branches": [
-          "master",
-          {"name": "[0-9]+.[0-9]+.[x]"}
-        ],
-        "gitAssets": ["apps/{projectName}/src/version.json"],
-        "preset": "conventionalcommits",
-        "presetConfig": {
-          "changelogTitle": "Changelog - {{projectName }}",
-          "issuePrefixes": ["#"],
-          "issueUrlFormat": "https://fujira.csin.cz/browse/{{id}}"
-        },
-        "plugins": [
-          [
-            "@google/semantic-release-replace-plugin",
-            {
-              "replacements": [
-                {
-                  "files": ["apps/{projectName}/src/version.json"],
-                  "from": "\"version\":\".*\"",
-                  "to": "\"version\":\"${nextRelease.version}\""
-                }
-              ]
-            }
-          ]
-        ]
-      }
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release"
     }
   },
   "namedInputs": {
