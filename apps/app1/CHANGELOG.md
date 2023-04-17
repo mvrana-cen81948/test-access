@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.7.2...app1@1.8.0) (2023-04-17)
+
+
+### Features
+
+* **app1:** feat6 (#GL-6548) ([5e3b991](https://github.com/mvrana-cen81948/nx-release-please/commit/5e3b99151c5fbb8b375d599f11fda189e5eeb3e2)), closes [#GL-6548](https://github.com/mvrana-cen81948/nx-release-please/issues/GL-6548)
+
 ## [1.7.2](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.7.1...app1@1.7.2) (2023-04-17)
 
 
