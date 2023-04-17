@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.7.1...app1@1.7.2) (2023-04-17)
+
+
+### Bug Fixes
+
+* **shared:** fix4 (#ID-12345) ([1410942](https://github.com/mvrana-cen81948/nx-release-please/commit/14109425339b43a9b771250ca40b28be42b61148)), closes [#ID-12345](https://fujira.csin.cz/browse/ID-12345)
+
 ## [1.7.1](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.7.0...app1@1.7.1) (2023-04-17)
 
 
