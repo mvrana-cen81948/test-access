@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app2@1.4.0...app2@1.5.0) (2023-04-17)
+
+
+### Features
+
+* **shared:** feat5 (#RD-12345,#DF-1654) ([ef9559d](https://github.com/mvrana-cen81948/nx-release-please/commit/ef9559d0b04e12d400786535d2c24c0afbbd66bf)), closes [#RD-12345](https://fujira.csin.cz/browse/RD-12345) [#DF-1654](https://fujira.csin.cz/browse/DF-1654)
+
 ## [1.4.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app2@1.3.0...app2@1.4.0) (2023-04-16)
 
 
