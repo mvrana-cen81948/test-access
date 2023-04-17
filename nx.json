@@ -45,11 +45,9 @@
         "gitAssets": ["apps/{projectName}/src/version.json"],
         "preset": "conventionalcommits",
         "presetConfig": {
+          "changelogTitle": "Changelog - {{projectName }}",
           "issuePrefixes": ["#"],
           "issueUrlFormat": "https://fujira.csin.cz/browse/{{id}}"
-        },
-        "changelog": {
-          "header": "CHANGELOG - {{projectName }}"
         },
         "plugins": [
           [
