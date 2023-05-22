@@ -33,7 +33,7 @@
     "release": {
       "executor": "@theunderscorer/nx-semantic-release:semantic-release",
       "options": {
-        "repositoryUrl": "https://github.com/mvrana-cen81948/test-access",
+        "repositoryUrl": "git@github.com:mvrana-cen81948/test-access.git",
         "npm": false,
         "github": true,
         "commitMessage": "chore(release): {projectName}@${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
