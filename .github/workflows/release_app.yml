@@ -21,7 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with: {fetch-depth: 0}
+        with:
+          fetch-depth: 0
+          ssh-key: ${{ secrets.RELEASE_SSH_KEY }}
+          ssh-known-hosts: 'github.com'
       - uses: actions/setup-node@v3
         with: {node-version: 18, cache: npm}
       - run: npm install --force
