@@ -29,10 +29,9 @@ jobs:
         with: {node-version: 18, cache: npm}
       - run: npm install --force
       - id: resolveCoveragePaths
-        shell: bash
         run: |
           echo ${{ secrets.RELEASE_SSH_KEY }} > /tmp/git_deploy_key
-          setsid ssh-add /tmp/git_deploy_key
+          ssh-add /tmp/git_deploy_key
           npx nx run ${{ github.event.inputs.app }}:release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
