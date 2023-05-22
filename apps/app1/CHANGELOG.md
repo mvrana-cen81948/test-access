@@ -1,3 +1,44 @@
+# 1.0.0 (2023-05-22)
+
+
+### Bug Fixes
+
+* **app1:** another bug (#DF-70491) ([700a5b6](https://github.com/mvrana-cen81948/test-access/commit/700a5b65c6feae38334338b5c08280e75a2ddbb6)), closes [#DF-70491](https://github.com/mvrana-cen81948/test-access/issues/DF-70491)
+* **app1:** bugfix #DF-70491 ([8a715dd](https://github.com/mvrana-cen81948/test-access/commit/8a715ddc15d3b812d0412ae66de4939ff697d33b)), closes [#DF-70491](https://github.com/mvrana-cen81948/test-access/issues/DF-70491)
+* **app1:** fix 1 ([06800d2](https://github.com/mvrana-cen81948/test-access/commit/06800d2b28dcb38ec9349152fc4c87301e9677fc))
+* **app1:** fix 8 #DF-70491 ([0f6ac48](https://github.com/mvrana-cen81948/test-access/commit/0f6ac488dc6588a55f826a20d950cb00139621e0)), closes [#DF-70491](https://github.com/mvrana-cen81948/test-access/issues/DF-70491)
+* **app1:** fix10 #DF-1234 ([5db8515](https://github.com/mvrana-cen81948/test-access/commit/5db85155094c8757ee371ae0b0ac6f6a17864e50)), closes [#DF-1234](https://github.com/mvrana-cen81948/test-access/issues/DF-1234)
+* **app1:** fix11 ([a5237ae](https://github.com/mvrana-cen81948/test-access/commit/a5237aef59b361fb7950b963d1e05b30f8f337eb))
+* **app1:** fix2 ([f70e0d9](https://github.com/mvrana-cen81948/test-access/commit/f70e0d92353077be049d54a7fec1f14c07c42b95))
+* **app1:** fix3 ([71994ff](https://github.com/mvrana-cen81948/test-access/commit/71994ff4043c5c54b98ac07c7815b38f89f8d56b))
+* **app1:** fix9 (#DF-12345) ([883c643](https://github.com/mvrana-cen81948/test-access/commit/883c64308dddcde79605ae262d7caf5a22745c63)), closes [#DF-12345](https://github.com/mvrana-cen81948/test-access/issues/DF-12345)
+* **app1:** issue fixed ([#6](https://github.com/mvrana-cen81948/test-access/issues/6)) ([8e415bc](https://github.com/mvrana-cen81948/test-access/commit/8e415bcfc8c65a8b099feb79fdffc95bba249607))
+* **app1:** next bugfix #DF-70491 ([0ede42d](https://github.com/mvrana-cen81948/test-access/commit/0ede42d16fcd29fce8506ec233ab3611d0eda093)), closes [#DF-70491](https://github.com/mvrana-cen81948/test-access/issues/DF-70491)
+* **lib1:** fix 1 ([c68aae4](https://github.com/mvrana-cen81948/test-access/commit/c68aae4c5015b84313c78a173fec15d33aefac23))
+* **lib1:** fix3 ([79d65fb](https://github.com/mvrana-cen81948/test-access/commit/79d65fb590b829185470bb54b8de1ee77c1ff829))
+* **shared:** fix 1 ([cc49925](https://github.com/mvrana-cen81948/test-access/commit/cc49925f76c0edb3fb8fbdfb70219a4cf0eab25f))
+* **shared:** fix3 ([2a6792d](https://github.com/mvrana-cen81948/test-access/commit/2a6792dafeeb65daa66c07f5fd85730b6e198242))
+* **shared:** fix4 (#ID-12345) ([1410942](https://github.com/mvrana-cen81948/test-access/commit/14109425339b43a9b771250ca40b28be42b61148)), closes [#ID-12345](https://github.com/mvrana-cen81948/test-access/issues/ID-12345)
+* **shared:** fixed shared lib ([db6d409](https://github.com/mvrana-cen81948/test-access/commit/db6d40937882827ead2606bc7977b1f8df7b9f77))
+
+
+### Features
+
+* **app1:** feat 2 ([9ecdf0b](https://github.com/mvrana-cen81948/test-access/commit/9ecdf0b2b50b662e1116a4098676c9a07b2df799))
+* **app1:** feat1 ([3c80604](https://github.com/mvrana-cen81948/test-access/commit/3c80604800107e688e91aa7224bbec7659a8bb55))
+* **app1:** feat3 ([754062e](https://github.com/mvrana-cen81948/test-access/commit/754062e7f5da56a8798985f28fc0d2cdcc57026d))
+* **app1:** feat4 ([8e22eb3](https://github.com/mvrana-cen81948/test-access/commit/8e22eb37a13e419fc20dc18343d1df1bd3b99d5c))
+* **app1:** feat5 ([c33f8ef](https://github.com/mvrana-cen81948/test-access/commit/c33f8efab6b4525c887c14c10f35d85d5679dcc1))
+* **app1:** feat6 (#GL-6548) ([5e3b991](https://github.com/mvrana-cen81948/test-access/commit/5e3b99151c5fbb8b375d599f11fda189e5eeb3e2)), closes [#GL-6548](https://github.com/mvrana-cen81948/test-access/issues/GL-6548)
+* **lib1:** feat 2 ([482c3c3](https://github.com/mvrana-cen81948/test-access/commit/482c3c3806aa0cb04c456920abe35a6a216e3646))
+* **lib1:** feat1 ([841ccb0](https://github.com/mvrana-cen81948/test-access/commit/841ccb0684e69cf7926adba83be80895045031c1))
+* **lib1:** feat3 ([80803f8](https://github.com/mvrana-cen81948/test-access/commit/80803f87d1002c74b7552b737a222724a09bdcc2))
+* **shared:** feat1 ([e2dc3e1](https://github.com/mvrana-cen81948/test-access/commit/e2dc3e1de9a1aed47174aba068eb8ef1e3cc1cd5))
+* **shared:** feat2 ([8bfa150](https://github.com/mvrana-cen81948/test-access/commit/8bfa150d2326f8c14457cce5725ca08acf71e61a))
+* **shared:** feat3 ([c5caa18](https://github.com/mvrana-cen81948/test-access/commit/c5caa183f785065ead29aac5f1b971b939c6f464))
+* **shared:** feat4 (#DF-5463) ([dceaf91](https://github.com/mvrana-cen81948/test-access/commit/dceaf9133bc8ce7f39da65a5701b53f54c90cd8e)), closes [#DF-5463](https://github.com/mvrana-cen81948/test-access/issues/DF-5463)
+* **shared:** feat5 (#RD-12345,#DF-1654) ([ef9559d](https://github.com/mvrana-cen81948/test-access/commit/ef9559d0b04e12d400786535d2c24c0afbbd66bf)), closes [#RD-12345](https://github.com/mvrana-cen81948/test-access/issues/RD-12345) [#DF-1654](https://github.com/mvrana-cen81948/test-access/issues/DF-1654)
+
 # [1.8.0](https://github.com/mvrana-cen81948/nx-release-please/compare/app1@1.7.2...app1@1.8.0) (2023-04-17)
 
 
